@@ -53,7 +53,16 @@ export default function Navbar() {
       <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-white font-bold text-xl">ACM RBU</Link>
+            <Link href="/" className="flex items-center space-x-2 text-white font-bold text-4xl">
+              {/* Logo image */}
+              <img
+                src="/favicon.ico" 
+                alt="ACM RBU Logo"
+                className="h-40 w-40 mr-1"
+                style={{ borderRadius: "8px" }}
+              />
+              <span style={{}}>ACM RBU</span>
+</Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">

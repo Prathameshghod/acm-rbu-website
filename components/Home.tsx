@@ -19,7 +19,7 @@ export default function Home() {
     renderer.setSize(window.innerWidth-20, window.innerHeight)
 
     const geometry = new THREE.TorusGeometry(10, 3, 16, 100)
-    const material = new THREE.MeshBasicMaterial({ color: 0x6366f1, wireframe: true })
+    const material = new THREE.MeshBasicMaterial({ color: 0x6366f1, wireframe: true }) // original indigo color
     const torus = new THREE.Mesh(geometry, material)
 
     scene.add(torus)
@@ -54,7 +54,7 @@ export default function Home() {
     <section id="home" className="relative min-h-screen flex items-center justify-center">
       <canvas ref={canvasRef} className="absolute inset-0 z-0" />
       <div className="relative z-10 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-yellow-300">
           ACM Student Chapter
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">

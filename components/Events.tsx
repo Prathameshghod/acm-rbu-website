@@ -30,7 +30,7 @@ const pastEvents = [
     name: "Data Science Seminar",
     speaker: "Dr. Emily Roberts",
     description: "Insights into the world of data analytics and machine learning.",
-    image: "https://via.placeholder.com/150" // Placeholder image
+    image: "/testimonials/vaibhav.jpg" // Placeholder image
   },
   {
     name: "Cloud Computing Webinar",
@@ -120,12 +120,14 @@ export default function Events() {
           <CarouselContent>
             {pastEvents.map((event, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                <Card>
-                  <CardContent className="p-4">
-                    <img src={event.image} alt={event.name} className="w-full h-40 object-cover rounded-lg mb-4" />
-                    <h4 className="text-lg font-semibold mb-2">{event.name}</h4>
-                    <p className="text-gray-400 mb-2">Speaker: {event.speaker}</p>
-                    <p className="text-sm">{event.description}</p>
+                <Card className="h-96 flex flex-col">
+                  <CardContent className="p-4 flex flex-col h-full">
+                    <img src={event.image} alt={event.name} className="w-full h-60 object-cover rounded-lg mb-3" />
+                    <div className="flex flex-col flex-1 justify-end">
+                      <h4 className="text-lg font-semibold mb-2">{event.name}</h4>
+                      <p className="text-gray-400 mb-2">Speaker: {event.speaker}</p>
+                      <p className="text-sm">{event.description}</p>
+                    </div>
                   </CardContent>
                 </Card>
               </CarouselItem>

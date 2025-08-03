@@ -6,7 +6,7 @@ import { Instagram, Linkedin } from 'lucide-react'
 
 const contributors = [
   {
-    name: "Alice Brown",
+    name: "Mandar Gurjar",
     domain: "Web Development",
     description: "Frontend enthusiast with a passion for creating beautiful user interfaces.",
     image: "/alice-brown.jpg",
@@ -14,7 +14,7 @@ const contributors = [
     linkedin: "alicebrown"
   },
   {
-    name: "Bob Green",
+    name: "Vidyasagar Dadilwar",
     domain: "Machine Learning",
     description: "AI researcher focusing on natural language processing and computer vision.",
     image: "/bob-green.jpg",
@@ -22,7 +22,7 @@ const contributors = [
     linkedin: "bobgreen"
   },
   {
-    name: "Catherine White",
+    name: "Mohammad Tailor",
     domain: "Cybersecurity",
     description: "Security analyst dedicated to protecting digital assets and securing networks.",
     image: "/catherine-white.jpg",
@@ -30,7 +30,7 @@ const contributors = [
     linkedin: "catherinewhite"
   },
   {
-    name: "David Smith",
+    name: "Prathamesh Ghodmare",
     domain: "Cloud Computing",
     description: "Expert in cloud architecture and scalable distributed systems.",
     image: "/david-smith.jpg",
@@ -38,7 +38,7 @@ const contributors = [
     linkedin: "davidsmith"
   },
   {
-    name: "Eleanor Johnson",
+    name: "Pushkar Jadhav",
     domain: "UI/UX Design",
     description: "Creative designer focused on enhancing user experiences through design.",
     image: "/eleanor-johnson.jpg",
@@ -46,44 +46,12 @@ const contributors = [
     linkedin: "eleanorjohnson"
   },
   {
-    name: "Frank Thomas",
+    name: "Ramharsh Dandekar",
     domain: "Blockchain Development",
     description: "Blockchain developer passionate about decentralized applications and smart contracts.",
     image: "/frank-thomas.jpg",
     instagram: "frank_thomas",
     linkedin: "frankthomas"
-  },
-  {
-    name: "Grace Lee",
-    domain: "Data Science",
-    description: "Data scientist with expertise in predictive modeling and statistical analysis.",
-    image: "/grace-lee.jpg",
-    instagram: "grace_lee",
-    linkedin: "gracelee"
-  },
-  {
-    name: "Henry Adams",
-    domain: "IoT",
-    description: "IoT engineer working on connecting devices and creating smart solutions.",
-    image: "/henry-adams.jpg",
-    instagram: "henry_adams",
-    linkedin: "henryadams"
-  },
-  {
-    name: "Isabella Martinez",
-    domain: "Mobile App Development",
-    description: "Mobile developer crafting user-friendly Android and iOS applications.",
-    image: "/isabella-martinez.jpg",
-    instagram: "isabella_martinez",
-    linkedin: "isabellamartinez"
-  },
-  {
-    name: "Jack Wilson",
-    domain: "Game Development",
-    description: "Game developer with a flair for creating immersive gaming experiences.",
-    image: "/jack-wilson.jpg",
-    instagram: "jack_wilson",
-    linkedin: "jackwilson"
   }
 ];
 
