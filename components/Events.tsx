@@ -90,7 +90,7 @@ const pastEvents = [
 
 
 export default function Events() {
-  const [activeEvent, setActiveEvent] = useState(0)
+  const [activeEvent] = useState(0);
 
   return (
     <section id="events" className="py-16 px-4">
